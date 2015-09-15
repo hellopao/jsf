@@ -17,7 +17,8 @@ let config = {
 	}	
 };
 
-program.command('jsf')
+program.command('gen')
+	.alias('g')
 	.action(function() {
 		let file = path.join(process.cwd(),'jsconfig.json')
 		fs.writeFile(file,JSON.stringify(config));
