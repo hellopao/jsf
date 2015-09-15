@@ -1,0 +1,30 @@
+{
+  "name": "jsf",
+  "version": "0.0.1",
+  "description": "generate jsconfig.json for visual studio code",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hellopao/jsf"
+  },
+  "author": {
+    "name": "qinjia",
+    "email": "qinjia@outlook.com"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "bin": {
+    "jsf":"bin/jsf.js"
+  },
+  "keywords": [
+    "jsconfig.json",
+    "visual studio code"
+  ],
+  "homepage": "https://github.com/hellopao/jsf",
+  "_id": "jsf@0.0.1",
+  "_from": "jsf@",
+  "dependencies": {
+    "commander": "^2.8.1"
+  }
+}
