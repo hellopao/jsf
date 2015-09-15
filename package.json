@@ -22,7 +22,7 @@
     "visual studio code"
   ],
   "homepage": "https://github.com/hellopao/jsf",
-  "_id": "jsf@0.0.1",
+  "_id": "jsf@0.0.2",
   "_from": "jsf@",
   "dependencies": {
     "commander": "^2.8.1"

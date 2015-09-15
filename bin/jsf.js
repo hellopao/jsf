@@ -1,9 +1,14 @@
 #!/usr/bin/env node
+"use strict";
 
-import * as fs from 'fs';
-import * as path from 'path';
+// import * as fs from 'fs';
+// import * as path from 'path';
+// 
+// import * as program from 'commander';
 
-import * as program from 'commander';
+var fs = require('fs'),
+	path = require('path'),
+	program = require('commander');
 
 let config = {
 	compilerOptions: {
@@ -17,6 +22,5 @@ program.command('jsf')
 		let file = path.join(process.cwd(),'jsconfig.json')
 		fs.writeFile(file,JSON.stringify(config));
 	})
-
 
 program.parse(process.argv);
