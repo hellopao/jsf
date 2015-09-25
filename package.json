@@ -1,6 +1,6 @@
 {
   "name": "jsf",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "generate jsconfig.json for visual studio code",
   "license": "MIT",
   "repository": {
@@ -22,9 +22,8 @@
     "visual studio code"
   ],
   "homepage": "https://github.com/hellopao/jsf",
-  "_id": "jsf@0.0.3",
+  "_id": "jsf@0.0.4",
   "_from": "jsf@",
   "dependencies": {
-    "commander": "^2.8.1"
   }
 }

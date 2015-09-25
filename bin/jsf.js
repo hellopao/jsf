@@ -1,14 +1,8 @@
 #!/usr/bin/env node
 "use strict";
 
-// import * as fs from 'fs';
-// import * as path from 'path';
-// 
-// import * as program from 'commander';
-
 var fs = require('fs'),
-	path = require('path'),
-	program = require('commander');
+	path = require('path');
 
 let config = {
 	compilerOptions: {
@@ -17,11 +11,6 @@ let config = {
 	}	
 };
 
-program.command('gen')
-	.alias('g')
-	.action(function() {
-		let file = path.join(process.cwd(),'jsconfig.json')
-		fs.writeFile(file,JSON.stringify(config));
-	})
+let file = path.join(process.cwd(),'jsconfig.json');
 
-program.parse(process.argv);
+fs.writeFile(file,JSON.stringify(config));
