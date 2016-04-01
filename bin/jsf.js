@@ -4,13 +4,13 @@
 var fs = require('fs'),
 	path = require('path');
 
-let config = {
-	compilerOptions: {
-		target: "ES6",
-		module: "commonjs"
+var config = `{
+	"compilerOptions": {
+		"target": "es2015",
+		"module": "commonjs"
 	}	
-};
+}`;
 
-let file = path.join(process.cwd(),'jsconfig.json');
+var file = path.join(process.cwd(),'jsconfig.json');
 
-fs.writeFile(file,JSON.stringify(config));
+fs.writeFile(file,config);
