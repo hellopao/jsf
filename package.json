@@ -1,6 +1,6 @@
 {
   "name": "jsf",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "generate jsconfig.json for visual studio code",
   "license": "MIT",
   "repository": {
